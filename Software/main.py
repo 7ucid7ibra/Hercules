@@ -7,9 +7,8 @@ from sequence import SequenceManager
 from wifi import ControlWindow
 
 # Main window setup
-# style = Style('darkly')
-# root = style.master
-root = tk.Tk()
+style = Style('darkly')
+root = style.master
 root.title("Robot Arm Programming Interface")
 
 def on_closing():
